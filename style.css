@@ -4,15 +4,15 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Tilt Neon', cursive;
 }
 
 /* Section One */
 
-.drkblue {
+.home {
     color: #4C4B16;
     background-image: url(images/pexels-jorge-zapata-1398688.jpg);
     background-size: cover;
-    font-family: 'Hero', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     min-height: 25%;
     display: flex;
@@ -59,8 +59,7 @@ a {
     justify-content: center;
     align-items: start;
     padding: 100px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .intro{
@@ -71,7 +70,6 @@ a {
     justify-content: space-between;
     background-color: rgba(200, 193, 193, 0.737);
     border-radius: 10px;
-    font-family: 'Tilt Neon', cursive;
 }
 
 .sub {
@@ -87,7 +85,6 @@ a {
     max-width: 200px;
     color: white;
     align-self: center;
-    font-family: 'Tilt Neon', cursive;
 }
 
 @media(max-height: 500px){
@@ -102,7 +99,7 @@ a {
 }
 
 /* Section Two */
-.white {
+.types {
     color: white;
     background-color: #4C4B16;
     background-size: cover;
@@ -124,7 +121,6 @@ h2 {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 25px;
-    font-family: 'Tilt Neon', cursive;
 }
 
 .card {
@@ -157,7 +153,7 @@ h2 {
 
 /* Section 3 */
 
-.grey {
+.testimonial {
     color: #757304;
     background-color: white;
     background-size: cover;
@@ -175,7 +171,6 @@ h2 {
     font-size: 36px;
     font-style: italic;
     max-width: 800px;
-    font-family: 'Tilt Neon', cursive;
     line-height: 1.5;
 }
 
@@ -207,8 +202,6 @@ h2 {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    font-family: 'Tilt Neon', cursive;
-
 }
 
 h4 {
@@ -242,5 +235,4 @@ h4 {
     color: #4C4B16;
     background-color: white;
     padding: 20px 0;
-    font-family: 'Tilt Neon', cursive;
 }
